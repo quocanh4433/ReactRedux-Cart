@@ -1,11 +1,11 @@
-import logo from './logo.svg';
+
 import './App.css';
-import ExerciseCartRedux from './ExerciseCartRedux/ExerciseCartRedux';
+import BookingTickets from './BookingTickets/BookingTickets';
 
 function App() {
   return (
     <div>
-      <ExerciseCartRedux/>
+      <BookingTickets />
     </div>
   );
 }

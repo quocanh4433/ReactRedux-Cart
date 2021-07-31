@@ -1,8 +1,8 @@
 import {combineReducers} from 'redux';
-import CartReducer from '../redux/CartReducer'
+import BookingTicketsReducer from './BookingTicketsReducer'
 
 const rootReducer = combineReducers({ // Store tổng của ứng dụng
-    stateCart : CartReducer // State giỏ hàng
+    stateBookingTickets : BookingTicketsReducer // state đặt vé
 })
 
 export default rootReducer
