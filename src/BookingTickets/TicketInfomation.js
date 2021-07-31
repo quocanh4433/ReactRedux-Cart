@@ -41,8 +41,8 @@ class TicketInfomation extends Component {
                 <table className="table">
                     <thead>
                         <tr>
-                            <th>Số ghế</th>
-                            <th>Giá</th>
+                            <th>Seats</th>
+                            <th>Price</th>
                             <th></th>
                         </tr>
                     </thead>
@@ -51,7 +51,7 @@ class TicketInfomation extends Component {
                     </tbody>
                     <tfoot>
                         <tr>
-                            <td><h5>Tổng tiền</h5></td>
+                            <td><h5>Total Cost</h5></td>
                             <td>{this.calcPayment()}</td>
                             <td></td>
                         </tr>
