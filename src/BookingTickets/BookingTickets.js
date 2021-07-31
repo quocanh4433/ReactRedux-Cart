@@ -17,7 +17,7 @@ export default class BookingTickets extends Component {
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-8">
-                            <h3>CHOOSE THE SEAT</h3>
+                            <h3>PLEASE SELECT YOUR SEAT</h3>
                             <div>
                                 <div className="screen mb-4">SCREEN</div>
                             </div>

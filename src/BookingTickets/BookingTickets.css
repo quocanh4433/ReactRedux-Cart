@@ -6,6 +6,10 @@ h3 {
     text-align: center;
 }
 
+button {
+    outline: none;
+}
+
 .background {
     position: fixed;
     top: 0;
