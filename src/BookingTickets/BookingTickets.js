@@ -1,8 +1,9 @@
-import React, { Component } from 'react'
-import './BookingTickets.css'
-import TicketInfomation from './TicketInfomation'
-import SeatRow from './SeatRow'
-import DataListSeats from '../Data/DataListSeats.json'
+import React, { Component } from 'react';
+import './BookingTickets.css';
+import TicketInfomation from './TicketInfomation';
+import SeatRow from './SeatRow';
+import DataListSeats from '../Data/DataListSeats.json';
+
 export default class BookingTickets extends Component {
     renderSeatsRow = () => {
         return DataListSeats.map((seatRow,indexRow) => {
